@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+  div{
+    column-count: 3;
+    margin: 15px;
+    /* align-items: ; */
+   }
+
+  .sub{
+    background-color:rgb(200,0,0);
+    color: #fff;
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: opacity 1s;
+    margin: 15px;
+   }
+
+  .join{
+    background-color: #fff;
+    color: rgb(16, 16, 240);
+    width: 60px;
+    padding: 5px;
+    height:  30px ;
+    border: 2px solid ;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 1s;
+    margin: 15px;
+  }
+
+  .twitter{
+    background-color:rgb(12, 158, 255);
+    color: #fff;
+    padding: 5px;
+    width: 90px;
+    height: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none;
+    transition: box-shadow 1s;
+    margin: 15px;
+  }
+
+  .sub:hover{
+    opacity: 0.8;
+  }
+
+  .sub:active{
+    opacity: 0.5;
+  }
+
+  .join:hover{
+    background-color: rgb(16, 16, 240);
+    color: #fff;
+  }
+
+  .join:active{
+    opacity: 0.7;
+  }
+
+  .twitter:hover{
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.15);
+
+  }
+  .twitter:active{
+    opacity:0.5;
+  }
+
+  .video{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 18px;
+    width: 300px;
+    line-height: 24px;
+    margin-bottom: 20px;
+  }
+  .video-views{
+    font-family: Arial;
+    font: size 14px;
+    color: rgb(132, 127, 127);
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  .video2{
+    font-family: Arial;
+    font-size: 14px;
+    color: rgb(131, 125, 125);
+    margin-top: 0;
+  }
+  .apple{
+    margin-bottom: 50px;
+    font-size: 14px;
+    background-color: red ;
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    color: #fff;
+
+  }
+  p{
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .video-dis{
+    font-size: 14px;
+    color: grey;
+    width: 280px;
+    line-height: 22px;
+    margin-top: 0;
+  }
+  .span{
+    cursor: pointer;
+  }
+  .span:hover{
+    text-decoration: underline ;
+  }
+  .search{
+    font-size: 20px;
+    margin-left: 12px;
+  }
+  </style>
+</head>
+<body>
+  <p>paragraph text</p>
+  <button>hello</button>
+  <a href="https://www.youtube.com/" target="_blank">link to youtube</a>
+<br>
+<br>
+  <div>
+    <button class="sub">SUBSCRIBE</button>
+    <button class="join">JOIN</button>
+    <button class="twitter">Twitter</button>
+  </div>
+  <section>
+    <p class="video">
+      talking tech and ai with google ceo sundar pichal
+    </p>
+    <p class="video-views">
+      3.4m views &#183; 6 months ago
+    </p>
+    <p class="video2">
+      marques brownlee &#183;
+    </p>
+    <p class="video-dis">
+      talking tech on the heels of Google <br>I/0. also a daily 
+      driver phone reveal from <br> google's CEO. shoutout to sundar!
+    </p>
+     
+    <p class="apple">
+      shop early for the selection of <u>holiday</u> favourises. <span class="span">shop now &#62;</span>
+    </p>
+  </section>
+  <div>
+    <input type="text" placeholder="search" class="search">
+  </div>
+  
+</body>
+
+</html>
