@@ -11,6 +11,7 @@
   <link rel="stylesheet" href="style-folder/video.css">
   <link rel="stylesheet" href="./style-folder/header.css">
   <link rel="stylesheet" href="./style-folder/general.css">
+  <link rel="stylesheet" href="./style-folder/sidebar.css">
 </head>
 <body>
  <div class="header">
@@ -22,23 +23,58 @@
     <input type="text" placeholder="Search" class="search-bar">
     <button class="search-button">
       <img  class="search-icon" src="./icons/search.svg" alt="">
+      <!-- when we hover it -->
+       <div class="tooltip">search</div>
     </button>
     <button class="voice-search-button">
       <img class="voice-search-icon" src="./icons/voice-search-icon.svg" alt="">
+      <!-- when we hover it -->
+      <div class="tooltip">search with your vioce </div>
     </button>
   </div>
   <div class="right-section">
-    <img class="upload-icon" src="./icons/upload.svg" alt="">
+    <div>
+      <img class="upload-icon" src="./icons/upload.svg" alt="">
+      <!-- when we hover it -->
+      <div class="tooltip">create</div>
+    </div>
+    
     <img class="youtube-apps-icon" src="./icons/youtube-apps.svg" alt="">
+   <div class="notifications-icon-container">
     <img class="notification-icon" src="./icons/notifications.svg" alt="">
+    <div class="notifications-count"> 3</div>
+   </div>
     <img class="current-user-picture" src="./thumbnails/my-channel.jpeg" alt="">
   </div>
  
  </div>
   
   <!-- side bar  -->
-   <div>
-    sidebar
+   <div class="sidebar">
+    <div class="sidebar-link">
+      <img src="./icons/home.svg" alt="">
+      <div>home</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./icons/explore.svg" alt="">
+      <div>explore</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./icons/subscriptions.svg" alt="">
+      <div>subscriptions</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./icons/originals.svg" alt="">
+      <div>originals</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./icons/youtube-music.svg" alt="">
+      <div>youtube-music</div>
+    </div>
+    <div class="sidebar-link">
+      <img src="./icons/library.svg" alt="">
+      <div>library</div>
+    </div>
    </div>
    <!-- the video layout in grid formart -->
     <div class="video-grid">
@@ -46,6 +82,7 @@
 
         <div class="thumbnail-row">
           <img class="thumbnail" src="/thumbnails/thumbnail-1.webp" >
+          <div class="video-time">14:20</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -73,6 +110,7 @@
     
         <div class="thumbnail-row">
           <img class="thumbnail" src="/thumbnails/thumbnail-2.webp" >
+          <div class="video-time">14:20</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -99,10 +137,12 @@
   
       <div class="thumbnail-row">
         <img class="thumbnail" src="/thumbnails/thumbnail-3.webp" >
+        <div class="video-time">8:22</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
           <img class="profile-picture" src="./thumbnails/channel-3.jpeg" alt="">
+          
         </div>
   
         <div class="channel-info">
@@ -125,6 +165,7 @@
   
       <div class="thumbnail-row">
         <img class="thumbnail" src="/thumbnails/thumbnail-4.webp" >
+        <div class="video-time">9:13</div>
       </div>
       <div class="video-info-grid">
         <div class="channel-picture">
@@ -151,6 +192,7 @@
   
         <div class="thumbnail-row">
           <img class="thumbnail" src="/thumbnails/thumbnail-5.webp" >
+          <div class="video-time">14:20</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
@@ -177,6 +219,7 @@
     
         <div class="thumbnail-row">
           <img class="thumbnail" src="/thumbnails/thumbnail-6.webp" >
+          <div class="video-time">14:20</div>
         </div>
         <div class="video-info-grid">
           <div class="channel-picture">
